@@ -1,0 +1,493 @@
+{
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6",
+    "secondary": "#FF6B35",
+    "text": "#333333",
+    "cardBackground": "#FFFFFF",
+    "accent": "#4ECDC4"
+  },
+  "campaign": "BACK_TO_SCHOOL",
+  "sections": [
+    {
+      "type": "BANNER_HERO",
+      "id": "hero-banner-1",
+      "data": {
+        "id": "banner-1",
+        "title": "Back to School Sale!",
+        "subtitle": "Up to 50% off on school essentials",
+        "image": "https://via.placeholder.com/800x400/FFD700/4169E1?text=Back+to+School",
+        "backgroundColor": "#FFD700",
+        "action": {
+          "type": "DEEP_LINK",
+          "payload": {
+            "screen": "Category",
+            "params": {
+              "categoryId": "school-essentials"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "DYNAMIC_COLLECTION",
+      "id": "collection-lunchboxes",
+      "data": {
+        "id": "collection-1",
+        "title": "Lunchboxes & Bags",
+        "products": [
+          {
+            "id": "prod-1",
+            "name": "Spiderman Lunchbox",
+            "price": 599,
+            "rating": 4.5,
+            "image": "https://via.placeholder.com/150/FF6B35/FFFFFF?text=Lunchbox+1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-1",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-2",
+            "name": "Disney Princess Bag",
+            "price": 899,
+            "rating": 4.8,
+            "image": "https://via.placeholder.com/150/FF69B4/FFFFFF?text=Bag+1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-2",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-3",
+            "name": "Avengers Water Bottle",
+            "price": 349,
+            "rating": 4.3,
+            "image": "https://via.placeholder.com/150/4169E1/FFFFFF?text=Bottle+1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-3",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-4",
+            "name": "Frozen Lunch Set",
+            "price": 749,
+            "rating": 4.6,
+            "image": "https://via.placeholder.com/150/00BFFF/FFFFFF?text=Lunch+Set",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-4",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-5",
+            "name": "Paw Patrol Backpack",
+            "price": 999,
+            "rating": 4.7,
+            "image": "https://via.placeholder.com/150/FFD700/333333?text=Backpack",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-5",
+                "quantity": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "PRODUCT_GRID_2X2",
+      "id": "grid-school-essentials",
+      "data": {
+        "title": "School Essentials",
+        "products": [
+          {
+            "id": "prod-6",
+            "name": "Notebook Set (10)",
+            "price": 199,
+            "rating": 4.2,
+            "image": "https://via.placeholder.com/150/4ECDC4/FFFFFF?text=Notebooks",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-6",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-7",
+            "name": "Pencil Box",
+            "price": 149,
+            "rating": 4.4,
+            "image": "https://via.placeholder.com/150/FF6B35/FFFFFF?text=Pencil+Box",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-7",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-8",
+            "name": "Geometry Set",
+            "price": 249,
+            "rating": 4.5,
+            "image": "https://via.placeholder.com/150/4169E1/FFFFFF?text=Geometry",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-8",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-9",
+            "name": "Art Colors Kit",
+            "price": 499,
+            "rating": 4.8,
+            "image": "https://via.placeholder.com/150/FF69B4/FFFFFF?text=Colors",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-9",
+                "quantity": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "DYNAMIC_COLLECTION",
+      "id": "collection-summer-toys",
+      "data": {
+        "id": "collection-2",
+        "title": "Summer Toys",
+        "products": [
+          {
+            "id": "prod-10",
+            "name": "Beach Ball Set",
+            "price": 299,
+            "rating": 4.3,
+            "image": "https://via.placeholder.com/150/00BFFF/FFFFFF?text=Beach+Ball",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-10",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-11",
+            "name": "Sand Castle Kit",
+            "price": 449,
+            "rating": 4.6,
+            "image": "https://via.placeholder.com/150/FFD700/333333?text=Sand+Castle",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-11",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-12",
+            "name": "Water Gun",
+            "price": 399,
+            "rating": 4.4,
+            "image": "https://via.placeholder.com/150/00CED1/FFFFFF?text=Water+Gun",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-12",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-13",
+            "name": "Swimming Goggles",
+            "price": 349,
+            "rating": 4.5,
+            "image": "https://via.placeholder.com/150/4169E1/FFFFFF?text=Goggles",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-13",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-14",
+            "name": "Pool Float",
+            "price": 799,
+            "rating": 4.7,
+            "image": "https://via.placeholder.com/150/FF7F50/FFFFFF?text=Pool+Float",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-14",
+                "quantity": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "PRODUCT_GRID_2X2",
+      "id": "grid-toys-under-499",
+      "data": {
+        "title": "Toys Under ₹499",
+        "products": [
+          {
+            "id": "prod-15",
+            "name": "Building Blocks",
+            "price": 449,
+            "rating": 4.6,
+            "image": "https://via.placeholder.com/150/FF6B35/FFFFFF?text=Blocks",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-15",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-16",
+            "name": "Toy Car Set",
+            "price": 399,
+            "rating": 4.4,
+            "image": "https://via.placeholder.com/150/4169E1/FFFFFF?text=Cars",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-16",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-17",
+            "name": "Doll House",
+            "price": 499,
+            "rating": 4.8,
+            "image": "https://via.placeholder.com/150/FF69B4/FFFFFF?text=Doll+House",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-17",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-18",
+            "name": "Puzzle Set",
+            "price": 299,
+            "rating": 4.5,
+            "image": "https://via.placeholder.com/150/4ECDC4/FFFFFF?text=Puzzle",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-18",
+                "quantity": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "DYNAMIC_COLLECTION",
+      "id": "collection-snacks",
+      "data": {
+        "id": "collection-3",
+        "title": "Snacks Under ₹99",
+        "products": [
+          {
+            "id": "prod-19",
+            "name": "Choco Chip Cookies",
+            "price": 49,
+            "rating": 4.3,
+            "image": "https://via.placeholder.com/150/8B4513/FFFFFF?text=Cookies",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-19",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-20",
+            "name": "Fruit Pack",
+            "price": 79,
+            "rating": 4.5,
+            "image": "https://via.placeholder.com/150/FF6B35/FFFFFF?text=Fruit",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-20",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-21",
+            "name": "Juice Box",
+            "price": 59,
+            "rating": 4.4,
+            "image": "https://via.placeholder.com/150/LimeGreen/FFFFFF?text=Juice",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-21",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-22",
+            "name": "Cheese Bites",
+            "price": 89,
+            "rating": 4.6,
+            "image": "https://via.placeholder.com/150/FFD700/333333?text=Cheese",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-22",
+                "quantity": 1
+              }
+            }
+          },
+          {
+            "id": "prod-23",
+            "name": "Granola Bar",
+            "price": 69,
+            "rating": 4.2,
+            "image": "https://via.placeholder.com/150/D2691E/FFFFFF?text=Granola",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "productId": "prod-23",
+                "quantity": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "DYNAMIC_COLLECTION",
+      "id": "collection-mystery",
+      "data": {
+        "id": "collection-4",
+        "title": "Mystery Gift Collection",
+        "products": [
+          {
+            "id": "prod-24",
+            "name": "Mystery Box Small",
+            "price": 199,
+            "rating": 4.7,
+            "image": "https://via.placeholder.com/150/FF4444/FFFFFF?text=Mystery+S",
+            "action": {
+              "type": "APPLY_MYSTERY_GIFT_COUPON",
+              "payload": {
+                "couponCode": "MYSTERY20"
+              }
+            }
+          },
+          {
+            "id": "prod-25",
+            "name": "Mystery Box Medium",
+            "price": 499,
+            "rating": 4.8,
+            "image": "https://via.placeholder.com/150/FF69B4/FFFFFF?text=Mystery+M",
+            "action": {
+              "type": "APPLY_MYSTERY_GIFT_COUPON",
+              "payload": {
+                "couponCode": "MYSTERY30"
+              }
+            }
+          },
+          {
+            "id": "prod-26",
+            "name": "Mystery Box Large",
+            "price": 999,
+            "rating": 4.9,
+            "image": "https://via.placeholder.com/150/FFD700/333333?text=Mystery+L",
+            "action": {
+              "type": "APPLY_MYSTERY_GIFT_COUPON",
+              "payload": {
+                "couponCode": "MYSTERY50"
+              }
+            }
+          },
+          {
+            "id": "prod-27",
+            "name": "Surprise Toy Bundle",
+            "price": 799,
+            "rating": 4.6,
+            "image": "https://via.placeholder.com/150/00CED1/FFFFFF?text=Surprise",
+            "action": {
+              "type": "APPLY_MYSTERY_GIFT_COUPON",
+              "payload": {
+                "couponCode": "SURPRISE25"
+              }
+            }
+          },
+          {
+            "id": "prod-28",
+            "name": "Lucky Dip Gift",
+            "price": 299,
+            "rating": 4.5,
+            "image": "https://via.placeholder.com/150/4ECDC4/FFFFFF?text=Lucky+Dip",
+            "action": {
+              "type": "APPLY_MYSTERY_GIFT_COUPON",
+              "payload": {
+                "couponCode": "LUCKY15"
+              }
+            }
+          }
+        ],
+        "action": {
+          "type": "SHOW_TOAST",
+          "payload": {
+            "message": "Unlock mystery gifts with special coupons!"
+          }
+        }
+      }
+    },
+    {
+      "type": "FULL_SCREEN_OVERLAY",
+      "id": "overlay-1",
+      "data": {
+        "enabled": true,
+        "lottieSource": "paper-airplane",
+        "position": "top"
+      }
+    }
+  ]
+}
